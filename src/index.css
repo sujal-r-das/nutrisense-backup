@@ -1,0 +1,51 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Tailwind base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply global font */
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Reusable Components */
+@layer components {
+  .feature-btn {
+    @apply flex flex-col items-center justify-center p-6 rounded-2xl shadow-md 
+           bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700
+           hover:shadow-xl transition duration-300;
+  }
+
+  .input {
+    @apply border rounded-lg px-3 py-2 bg-gray-50 dark:bg-gray-700 
+           text-gray-800 dark:text-gray-200 
+           focus:outline-none focus:ring-2 focus:ring-green-500;
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 rounded-lg font-medium bg-green-600 text-white 
+           hover:bg-green-700 transition duration-300;
+  }
+}
+
+/* Slide-in animations */
+@layer utilities {
+  @keyframes slide-in-right {
+    0% { transform: translateX(100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+  .animate-slide-in-right {
+    animation: slide-in-right 0.5s ease-out forwards;
+  }
+
+  @keyframes slide-in-left {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+  .animate-slide-in-left {
+    animation: slide-in-left 0.5s ease-out forwards;
+  }
+}
