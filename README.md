@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 🥗 AI POWERED DIET MONITORING PLATFORM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/MERN-Stack-green?style=for-the-badge&logo=mongodb" />
+  <img src="https://img.shields.io/badge/AI-Gemini%20Flash-blue?style=for-the-badge&logo=google-gemini" />
+  <img src="https://img.shields.io/badge/UI-Framer%20Motion-purple?style=for-the-badge&logo=framer" />
+  <img src="https://img.shields.io/badge/Status-Version%202.0-orange?style=for-the-badge" />
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📽️ System Architecture & Preview
+The **AI Powered Diet Monitoring Platform** is a sophisticated health-tech solution designed for precision nutrition and metabolic tracking. It transforms raw physiological data into actionable dietary architecture using Google's Gemini Flash AI.
 
-### `npm start`
+### ⚡ Key Architectural Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### 1. Vitals HUD (Heads-Up Display)
+A real-time, chronological tracking interface for critical health metrics:
+- **Blood Pressure Monitoring** (Systolic/Diastolic)
+- **Glucose Level Tracking**
+- **Oxygen Saturation** (SpO2)
+- **Heart Rate** with physics-based reactive animations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### 2. Smart Diet Architect
+An AI-integrated planning engine that considers:
+- **Caloric Targets:** Calculated based on BMI and Activity Levels.
+- **Goal Specificity:** Options for Lean Bulking, Maintenance, or Aggressive Cutting.
+- **Multilingual Support:** Native output in Hindi, English, and Marathi.
 
-### `npm test`
+#### 3. Reactive UI/UX
+- **Pulse Heartbeat Branding:** A constant pulsing animation on the core brand logo representing life-signs.
+- **Staggered Bento Layout:** Modern grid system for high-density information visibility.
+- **Safety Protocol:** Integrated 3-line legal medical disclaimer on every dashboard view.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack & Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Frontend**
+- **Library:** React.js (Hooks & Context API)
+- **Styling:** Tailwind CSS (Utility-first)
+- **Animations:** Framer Motion (Spring physics & Keyframes)
+- **Icons:** Lucide React & FontAwesome
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Backend**
+- **Runtime:** Node.js
+- **Framework:** Express.js
+- **Database:** MongoDB (Atlas)
+- **AI Engine:** Google Generative AI (Gemini 1.5 Flash)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Deployment & Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
+- Node.js v18+
+- MongoDB Atlas Account
+- Gemini API Key
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Setup Instructions
+1. **Clone & Install**
+   ```bash
+   git clone [https://github.com/sujal-r-das/nutrisense-backup.git](https://github.com/sujal-r-das/nutrisense-backup.git)
+   cd nutrisense-ai
+   npm install
